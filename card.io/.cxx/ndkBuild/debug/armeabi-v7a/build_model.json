@@ -1,0 +1,63 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/plima/code/card.io-Android-source",
+      "sdkFolder": "/Users/plima/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/plima/code/card.io-Android-source/card.io/build/intermediates",
+      "gradleModulePathName": ":card.io",
+      "moduleRootFolder": "/Users/plima/code/card.io-Android-source/card.io",
+      "makeFile": "/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "/Users/plima/code/card.io-Android-source/.cxx",
+      "cxxFolder": "/Users/plima/code/card.io-Android-source/card.io/.cxx",
+      "ndkFolder": "/Users/plima/Library/Android/sdk/ndk/16.1.4479499",
+      "ndkVersion": "16.1.4479499",
+      "ndkSupportedAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "MIPS",
+        "MIPS64",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/debug/lib",
+    "objFolder": "/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/debug/obj/local",
+    "jsonFolder": "/Users/plima/code/card.io-Android-source/card.io/.cxx/ndkBuild/debug",
+    "gradleBuildOutputFolder": "/Users/plima/code/card.io-Android-source/card.io/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/plima/code/card.io-Android-source/card.io/.cxx/ndkBuild/debug/armeabi-v7a",
+  "jsonFile": "/Users/plima/code/card.io-Android-source/card.io/.cxx/ndkBuild/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/plima/code/card.io-Android-source/card.io/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a",
+  "buildCommandFile": "/Users/plima/code/card.io-Android-source/card.io/.cxx/ndkBuild/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/plima/code/card.io-Android-source/card.io/.cxx/ndkBuild/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/plima/code/card.io-Android-source/card.io/.cxx/ndkBuild/debug/armeabi-v7a/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/Users/plima/code/card.io-Android-source/card.io/.cxx/ndkBuild/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/plima/code/card.io-Android-source/card.io/.cxx/ndkBuild/debug/armeabi-v7a/compile_commands.json"
+}

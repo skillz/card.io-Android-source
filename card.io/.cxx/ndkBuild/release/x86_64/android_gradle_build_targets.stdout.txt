@@ -1,0 +1,13 @@
+[x86_64] Compile++      : cardioDecider <= processor_support.cpp
+[x86_64] Compile++      : cardioDecider <= nativeDecider.cpp
+[x86_64] Compile        : cpufeatures <= cpu-features.c
+[x86_64] StaticLibrary  : libcpufeatures.a
+[x86_64] SharedLibrary  : libcardioDecider.so
+[x86_64] Compile++      : cardioRecognizer <= dmz_all.cpp
+[x86_64] Compile++      : cardioRecognizer <= nativeRecognizer.cpp
+[x86_64] Prebuilt       : libopencv_imgproc.so <= /Users/plima/code/card.io-Android-source/card.io/src/main/jni/lib/x86_64/
+[x86_64] Prebuilt       : libopencv_core.so <= /Users/plima/code/card.io-Android-source/card.io/src/main/jni/lib/x86_64/
+[x86_64] SharedLibrary  : libcardioRecognizer.so
+[x86_64] Compile++      : cardioRecognizer_tegra2 <= dmz_all.cpp
+[x86_64] Compile++      : cardioRecognizer_tegra2 <= nativeRecognizer.cpp
+[x86_64] SharedLibrary  : libcardioRecognizer_tegra2.so
