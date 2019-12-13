@@ -1,0 +1,13 @@
+[armeabi-v7a] Compile++ thumb: cardioDecider <= processor_support.cpp
+[armeabi-v7a] Compile++ thumb: cardioDecider <= nativeDecider.cpp
+[armeabi-v7a] Compile thumb  : cpufeatures <= cpu-features.c
+[armeabi-v7a] StaticLibrary  : libcpufeatures.a
+[armeabi-v7a] SharedLibrary  : libcardioDecider.so
+[armeabi-v7a] Compile++ thumb: cardioRecognizer <= dmz_all.cpp
+[armeabi-v7a] Compile++ thumb: cardioRecognizer <= nativeRecognizer.cpp
+[armeabi-v7a] Prebuilt       : libopencv_imgproc.so <= /Users/plima/code/card.io-Android-source/card.io/src/main/jni/lib/armeabi-v7a/
+[armeabi-v7a] Prebuilt       : libopencv_core.so <= /Users/plima/code/card.io-Android-source/card.io/src/main/jni/lib/armeabi-v7a/
+[armeabi-v7a] SharedLibrary  : libcardioRecognizer.so
+[armeabi-v7a] Compile++ thumb: cardioRecognizer_tegra2 <= dmz_all.cpp
+[armeabi-v7a] Compile++ thumb: cardioRecognizer_tegra2 <= nativeRecognizer.cpp
+[armeabi-v7a] SharedLibrary  : libcardioRecognizer_tegra2.so

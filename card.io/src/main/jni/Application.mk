@@ -22,6 +22,6 @@ APP_CFLAGS += -O3
 
 
 # disable "mangling of 'va_list' has changed in GCC 4.4" warning.
-#APP_CFLAGS += -Wno-psabi
+#APP_CFLAGS += -Wno-psabi -Wno-narrowing
 
-APP_CPPFLAGS += -DANDROID_DMZ=1
+APP_CPPFLAGS += -DANDROID_DMZ=1 -Wno-narrowing

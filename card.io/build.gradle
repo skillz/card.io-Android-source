@@ -4,7 +4,12 @@ apply plugin: 'signing'
 apply plugin: 'io.codearte.nexus-staging'
 
 repositories {
+    google()
+    jcenter()
     mavenCentral()
+    maven {
+        url "https://jitpack.io"
+    }
 }
 
 android {
@@ -34,8 +39,8 @@ android {
 }
 
 dependencies {
-    testCompile "junit:junit:4.12"
-    testCompile "org.robolectric:robolectric:3.1.2"
+    testImplementation "junit:junit:4.12"
+    testImplementation "org.robolectric:robolectric:3.1.2"
 }
 
 task javadocs(type: Javadoc) {

@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Android.mk",
+    "/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/plima/Library/Android/sdk/ndk/16.1.4479499/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/plima/Library/Android/sdk/ndk/16.1.4479499/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "cardioRecognizer_tegra2-release-x86_64": {
+      "artifactName": "cardioRecognizer_tegra2",
+      "buildCommand": "/Users/plima/Library/Android/sdk/ndk/16.1.4479499/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/lib /Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj/local/x86_64/libcardioRecognizer_tegra2.so",
+      "abi": "x86_64",
+      "output": "/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj/local/x86_64/libcardioRecognizer_tegra2.so"
+    },
+    "cardioRecognizer-release-x86_64": {
+      "artifactName": "cardioRecognizer",
+      "buildCommand": "/Users/plima/Library/Android/sdk/ndk/16.1.4479499/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/lib /Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj/local/x86_64/libcardioRecognizer.so",
+      "abi": "x86_64",
+      "output": "/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj/local/x86_64/libcardioRecognizer.so"
+    },
+    "cpufeatures-release-x86_64": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "/Users/plima/Library/Android/sdk/ndk/16.1.4479499/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/lib /Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj/local/x86_64/libcpufeatures.a",
+      "abi": "x86_64",
+      "output": "/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj/local/x86_64/libcpufeatures.a"
+    },
+    "cardioDecider-release-x86_64": {
+      "artifactName": "cardioDecider",
+      "buildCommand": "/Users/plima/Library/Android/sdk/ndk/16.1.4479499/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/plima/code/card.io-Android-source/card.io/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/lib /Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj/local/x86_64/libcardioDecider.so",
+      "abi": "x86_64",
+      "output": "/Users/plima/code/card.io-Android-source/card.io/build/intermediates/ndkBuild/release/obj/local/x86_64/libcardioDecider.so"
+    }
+  }
+}
